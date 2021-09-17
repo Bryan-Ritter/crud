@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+
+header {
+    background-color: #455a64;
+    display: grid;
+    grid-template-rows: 2fr 8fr;
+    text-align: center;
+    padding: 20%;
+}
+
+.title {
+    margin: auto;
+    color: #eceff1;
+}
+
+nav {
+    margin: 40% auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10% 0;
+    color: #b0bec5;
+}
+
+nav a:hover {
+    color: #eceff1;
+}
+
+.home {
+    text-align: center;
+    margin: auto;
+}
+
+main {
+    margin: auto;
+    min-width: 60vw;
+    min-height: 60vh;
+}
