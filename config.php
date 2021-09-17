@@ -8,5 +8,5 @@ define("URL_TEMPLATE", URL_HOME . "templates/default/");
 
 define("DB_HOST", "localhost");
 define("DB_DATABASE", "escola");
-define("DB_USER", "kayki");
-define("DB_PASS", "Az19Flx#iwM");
+define("DB_USER", "root");
+define("DB_PASS", "");
